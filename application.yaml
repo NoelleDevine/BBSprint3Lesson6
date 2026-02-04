@@ -2,10 +2,10 @@ spring:
   application:
     name: demo
   datasource:
-    url: jdbc:mysql://localhost:3306/tradingcards_db
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: iLoveiCode
+    url: jdbc:postgresql://localhost:5432/CAT_DB
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: password
   jpa:
     show-sql: true
     hibernate:
